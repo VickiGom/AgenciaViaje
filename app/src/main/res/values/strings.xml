@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AgenciaViaje</string>
+    <string name="nombreUno">Nombre:</string>
+    <string name="numeroBoletoUno">Numero de boleto:</string>
+    <string name="destinoUno">Destino:</string>
+    <string name="tipoUno">Tipo de viaje:</string>
+    <string name="precioUno">Precio:</string>
+    <string name="fechaUno">Fecha de viaje:</string>
+    <string name="edadUno">Edad:</string>
+    <string-array name="destinosEs">
+        <item>Mazatlan</item>
+        <item>Culiacan</item>
+        <item>Cosala</item>
+        <item>Choix</item>
+        <item>Rosario</item>
+        <item>Mocorito</item>
+        <item>Guasave</item>
+        <item>Los mochis</item>
+        <item>Guamuchil</item>
+    </string-array>
+    <string-array name="tiposBoleto">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

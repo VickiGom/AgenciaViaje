@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         >
+         <TextView
+             android:text="@string/nombreUno"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/nombreUnoLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+         />
+         <EditText
+             android:id="@+id/nombreOb"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+         />
+
+         <TextView
+             android:id="@+id/edadUnoLb"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/edadUno"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+
+         <EditText
+             android:id="@+id/edadOb"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+
+         <TextView
+             android:text="@string/numeroBoletoUno"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/numeroBoletoUnoLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <EditText
+             android:id="@+id/numeroBoletoOb"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:text="@string/destinoUno"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/destinoUnoLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <Spinner
+             android:id="@+id/spnDestino"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             ></Spinner>
+         <TextView
+             android:text="@string/tipoUno"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/tipoUnoLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <Spinner
+             android:id="@+id/spnTipo"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             ></Spinner>
+         <TextView
+             android:text="@string/precioUno"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/precioUnoLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <EditText
+             android:id="@+id/precioOb"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+
+         <TextView
+             android:id="@+id/fechaUnoLb"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:autoSizeTextType="uniform"
+             android:text="@string/fechaUno"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"/>
+         <EditText
+             android:id="@+id/fechaOb"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:text=""
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/subLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <TextView
+             android:text=""
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/impLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <TextView
+             android:text=""
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/desLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <TextView
+             android:text=""
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/totalLb"
+             android:autoSizeTextType="uniform"
+             android:textStyle="normal"
+             android:textColor="@color/black"
+             android:textSize="17dp"
+             />
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_height="40dp"
+             android:layout_width="300dp"
+             android:id="@+id/btnMostrar"
+             android:text="Agregar viaje"
+             android:background="#BAF7A0"
+             android:layout_marginLeft="60dp"
+             android:layout_marginTop="-25dp">
+
+
+         </androidx.appcompat.widget.AppCompatButton>
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_height="40dp"
+             android:layout_width="300dp"
+             android:id="@+id/btnLimpiar"
+             android:text="Limpiar"
+             android:background="#BAF7A0"
+             android:layout_marginLeft="60dp"
+             android:layout_marginTop="-255dp">
+
+
+         </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+
+
+
+
+
+     </LinearLayout>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
